@@ -29,7 +29,8 @@ class CashRegister
   end
   
   def items
-    cart = []
+    item_names = []
+    @cart.select 
       
   end  
 end
