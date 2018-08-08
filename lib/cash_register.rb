@@ -13,7 +13,11 @@ class CashRegister
     item_info[:name] = name
     item_info[:price] = price
     item_info[:quantity] = quantity
+    
+    
+    
     @total += price * quantity
+    
   end
   
   def apply_discount
