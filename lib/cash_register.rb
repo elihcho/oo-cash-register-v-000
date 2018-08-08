@@ -30,6 +30,6 @@ class CashRegister
   
   def items
     cart = []
-    
+      
   end  
 end
