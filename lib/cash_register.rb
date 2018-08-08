@@ -21,4 +21,7 @@ class CashRegister
     end
   end
   
+  def item
+    item_array
+  end  
 end
