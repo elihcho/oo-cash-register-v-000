@@ -21,7 +21,7 @@ class CashRegister
     end
   end
   
-  def item
+  def items
     item_array
   end  
 end
