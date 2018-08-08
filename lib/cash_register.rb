@@ -9,6 +9,10 @@ class CashRegister
   end
   
   def add_item(name, price, quantity = 1)
+    item_info = {}
+    item_info[:name] = name
+    item_info[:price] = price
+    item_info[:quantity] = quantity
     @total += price * quantity
   end
   
