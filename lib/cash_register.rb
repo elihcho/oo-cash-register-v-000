@@ -28,12 +28,14 @@ class CashRegister
     end
   end
   
-  def items
+   def items
     item_names = []
-    @cart.each do |item_info|
-      for item_info in 1..item_info[:quantity]
-        item_names << @cart[:name]
-      end
-    end
-  end  
+    @cart.each do | item_info |
+      #test expects product name * quantity...
+      for qty in 1..item_info[:quantity] 
+        item_names << item_info[:name]
+      end 
+    end 
+    item_names
+  end 
 end
